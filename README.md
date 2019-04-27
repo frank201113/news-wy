@@ -29,16 +29,13 @@ Vue + Vuex + (NUXT)SSR
 ## 页面预览
 
 ### 首页与首页登录
-<img src="./readme-img/index.png" />
-<img src="./readme-img/index-login.png" />
+<img src="./readme-img/index.png" /> <img src="./readme-img/index-login.png" />
 
 ### 推荐与原创页
-<img src="./readme-img/recommend.png" />
-<img src="./readme-img/exclusive.png" />
+<img src="./readme-img/recommend.png" /> <img src="./readme-img/exclusive.png" />
 
 ### 登录与注册页
-<img src="./readme-img/login.png" />
-<img src="./readme-img/register.png" />
+<img src="./readme-img/login.png" /> <img src="./readme-img/register.png" />
 
 ## 项目运行
 ``` bash
