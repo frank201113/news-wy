@@ -1,0 +1,27 @@
+#l-indexheader {
+  font-size: 14.4px;
+  max-width: 1080px;
+  position: relative;
+  z-index: 128;
+}
+
+.u_topbar {
+  height: 44.1px;
+  background-color: #f33;
+  position: relative;
+  overflow: hidden;
+}
+
+.u_topbar .u_logo {
+  background: url(/img/logo_2016@2x.png) no-repeat;
+  background-image: -webkit-image-set(url(/img/logo_2016@2x.png) 2x,url(/img/logo_2016@3x.png) 3x);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 50px;
+  height: 25px;
+  margin: -12.5px 0 0 -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

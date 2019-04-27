@@ -1,0 +1,411 @@
+body {
+  background: #fff;
+}
+
+input {
+  width: 225px;
+  height: 42px;
+  padding-left: 0;
+  color: #333;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 42px;
+  background: #fff;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  color: #bdbdbd;
+  line-height: 42px;
+  height: 42px;
+}
+
+input::-moz-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  color: #bdbdbd;
+}
+
+input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  color: #bdbdbd;
+}
+
+input::-o-input-placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  color: #bdbdbd;
+}
+
+.f-dn {
+  display: none !important;
+}
+
+#l-indexheader {
+  font-size: 14.4px;
+  max-width: 1080px;
+  position: relative;
+  z-index: 128;
+}
+
+.u_topbar {
+  height: 44.1px;
+  background-color: #f33;
+  position: relative;
+  overflow: hidden;
+}
+
+.u_topbar .u_logo {
+  background: url(/img/logo_2016@2x.png) no-repeat;
+  background-image: -webkit-image-set(url(/img/logo_2016@2x.png) 2x,url(/img/logo_2016@3x.png) 3x);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  width: 50px;
+  height: 25px;
+  margin: -12.5px 0 0 -25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.main_content {
+  height: 100%;
+}
+
+.login_panel {
+  background: #fff;
+  box-sizing: border-box;
+  width: 290px;
+  margin: 0 auto;
+  transform: none;
+  height: 100%;
+  padding: 27px 0;
+  position: relative;
+}
+
+.login_panel .login_list {
+  margin-top: 22.5px;
+}
+
+.login_panel .login_list ul {
+  display: block;
+  width: 100%;
+}
+
+.login_panel .login_list .l_item {
+  height: 40.5px;
+  line-height: 40.5px;
+  border-bottom: 1px solid #e5e5e5;
+  display: block;
+  text-align: left;
+  font-size: 0;
+}
+
+.login_panel .not_logined .l_item:last-child {
+  padding-bottom: 22.5px;
+  border-bottom: 0;
+}
+
+.login_panel .login_list .not_logined .l_item:first-child {
+  height: auto;
+  min-height: 40.5px;
+}
+
+.g-bd {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.inputbox {
+  z-index: 19;
+  position: relative;
+  margin-bottom: 0px;
+  border: 1px solid #c5cddb;
+  background: #fff;
+  height: 45.6px;
+  font-size: 0;
+  line-height: 1;
+  border-radius: 3px;
+}
+
+.inputbox.active {
+  border: 1px solid #4aafe9;
+}
+
+.inputbox.error-color {
+  border: 1px solid #fa6060;
+}
+
+.login_panel .login_module {
+  left: 0;
+}
+
+.u-logo {
+  float: left;
+  text-align: center;
+  width: 26.4px;
+  padding: 0 6px 0 12px;
+  height: 100%;
+}
+
+.u-logo div {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-top: 7.8px;
+  width: 26.4px;
+  height: 28.8px;
+}
+
+.u-logo-img1 {
+  background: url(/img/login_bg.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.u-input {
+  position: relative;
+  float: left;
+  height: 100%;
+}
+
+.u-input input {
+  height: 33.6px;
+  line-height: 1;
+  padding: 6px 0;
+  font-size: 18px;
+  font-weight: 400;
+  background: #fff;
+  color: #333;
+  border: 0;
+  width: 150px;
+}
+
+.fur-change-email {
+  position: relative;
+  width: 204px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.u-logo-img2 {
+  background: url(/img/login_bg.png) 0 bottom no-repeat;
+  background-size: cover;
+}
+
+.loginbox {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.f-cb {
+  zoom: 1;
+}
+
+.u-loginbtn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+
+#dologin {
+  background: #f33;
+  border-radius: 6px;
+  height: 42px;
+  font-size: 14.4px;
+  line-height: 42px;
+}
+
+.f-cb:after, .f-cbli li:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: ".";
+}
+
+/* .m-unlogin {
+  padding: 2px 0 9px 0;
+  font-size: 0;
+  height: 16px;
+  line-height: 16px;
+} */
+
+/* .m-unlogin .forgetpwd, .m-unlogin .forgetpwdReg {
+  float: left;
+  height: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 12px;
+  line-height: 16px;
+  *padding-left: 5px;
+} */
+
+/* .m-unlogin .u-regbtn.bgcolor {
+  color: #999;
+} */
+
+/* .m-unlogin .u-regbtn {
+  cursor: pointer;
+  font-size: 12px;
+  float: right;
+  line-height: 16px;
+} */
+
+.u-loginbtn:active {
+  color: #edc8c8;
+  opacity: 0.5;
+}
+
+#dologin.btndisabled {
+  background: #ddd;
+}
+
+.u-tip {
+  padding: 0 3px 0 0;
+  display: none;
+  float: right;
+  height: 100%;
+}
+
+.u-success {
+  margin-top: 13.8px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  vertical-align: top;
+  *display: inline;
+  *zoom: 1;
+  background: url(/img/login_sprite.png) -9999px -9999px no-repeat;
+  _background: url(/img/login_sprite.png) -9999px -9999px no-repeat;
+}
+
+.u-clear {
+  background-position: -147px -89px;
+}
+
+.m-nerror {
+  top: -31px;
+  left: -1px;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 0;
+  *top: -40px;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+.m-nerror div {
+  display: inline-block;
+  overflow: hidden;
+  *display: inline;
+  *zoom: 1;
+}
+
+.ferrortail {
+  background: url(/img/login_sprite.png) -9999px -9999px no-repeat;
+  _background: url(/img/login_sprite.png) -9999px -9999px no-repeat;
+}
+
+.m-nerror .ferrortail {
+  height: 15px;
+  width: 18px;
+  background-position: -217px -34px;
+  *position: relative;
+  *top: 0;
+}
+
+.m-nerror .ferrorhead {
+  margin-top: -3px;
+  color: #fa5b5b;
+  line-height: 20px;
+  vertical-align: top;
+  word-break: break-all;
+  font-size: 14.4px !important;
+  width: 210px !important;
+}
+
+.fur-item {
+  position: relative;
+  height: 40.5px;
+  line-height: 7.5px;
+}
+
+.fur-agree {
+  color: #999;
+}
+
+.u-zc-agree {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  width: 14px;
+  margin-top: 3px;
+  height: 14px;
+  cursor: pointer;
+  border: solid 1px #aaa;
+  color: #999;
+  font-size: 12px;
+}
+
+.u-zc-agree-select {
+  background: url(/img/login_sprite.png) -9999px -9999px no-repeat;
+  _background: url(/img/login_sprite.png) -9999px -9999px no-repeat;  
+}
+
+.u-zc-agree-select {
+  background-position: -330px -92px;
+}
+
+.u-zc-agree .zc-un-login {
+  cursor: pointer;
+}
+
+.zc-un-login {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  filter: alpha(opacity = 0);
+  cursor: pointer;
+}
+
+.fur-agree label {
+  font-size: 12px;
+}
+
+.fur-agree a {
+  color: #999;
+  text-decoration: none;
+  line-height: 20px;
+  display: inline !important;
+  /* font: 12px/1.14 "Microsoft YaHei","微软雅黑","宋体",helvetica,"Hiragino Sans GB"; */
+  font-size: 12px;
+}
+
+.u-logbtn {
+  cursor: pointer;
+  font-size: 12px;
+  float: right;
+  position: relative;
+  z-index: 999;
+}
+
+.u-logbtn.bgcolor {
+  color: #999;
+}

@@ -1,0 +1,105 @@
+.wap-tabbar-wrap {
+  height: .93rem;
+}
+
+.tab-bar {
+  padding: 0 .22rem;
+  margin-bottom: 0;
+  height: .93rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  font-size: .34rem;
+  letter-spacing: 0;
+  line-height: .48rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.tab-bar ul {
+  width: 100%;
+  height: .93rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.tab-bar .tab-item {
+  width: 1%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  text-align: center;
+  color: #333;
+  height: .93rem;
+  line-height: .93rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.tab-bar .tab-active a {
+  color: #ee1a1a;
+}
+
+.tab-bar .tab-item:after, .tab-bar .tab-item:before {
+  display: block;
+  width: .15rem;
+  height: .04rem;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  content: " ";
+}
+
+.tab-bar .tab-item:before {
+  right: 45%;
+}
+
+.tab-bar .tab-item:after {
+  left: 45%;
+}
+
+.tab-bar .tab-active:after, .tab-bar .tab-active:before {
+  background: #ee1a1a;
+}
+
+.tab-bar .tab-active:before {
+  right: 50%;
+}
+
+.tab-bar .tab-active:after {
+  left: 50%;
+}
+
+.auto-fixed .tab-bar {
+  position: fixed;
+  width: 7.5rem;
+  top: 0;
+  left: auto;
+  right: auto;
+  z-index: 1000;
+}
+
+.tab-dark .tab-bar {
+  background: #ee1a1a;
+  border-width: 0;
+}
+
+.tab-dark .tab-bar .tab-active a,
+.tab-dark .tab-bar .tab-item a {
+  color: #fff
+}
+
+.tab-dark .tab-bar .tab-active:after,
+.tab-dark .tab-bar .tab-active:before {
+  background: #fff
+}
